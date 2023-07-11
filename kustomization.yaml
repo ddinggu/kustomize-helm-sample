@@ -1,0 +1,8 @@
+helmCharts:
+  - name: wordpress
+    repo: https://charts.bitnami.com/bitnami
+    version: 16.1.25
+    releaseName: wordpress
+    namespace: wordpress
+    valuesFile: my-values.yaml
+    includeCRDs: true
